@@ -1,8 +1,3 @@
-window.open(
-    'https://www.yahoo.co.jp/',
-    'sample',
-    'height=300,centerscreen,resizable' )
-
 document.addEventListener('DOMContentLoaded',() =>{
 const grid = document.querySelector('.grid');
 let squares = Array.from(document.querySelectorAll('.grid div'));
